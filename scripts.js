@@ -19,7 +19,7 @@ function performSearch() {
 
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch data from the PHP API
-    var api_url = "http://asjfhldferuh98r43y2uiddhyuisht8rqhfuiwedhf.000.pe/api.php";
+    var api_url = "https://asjfhldferuh98r43y2uiddhyuisht8rqhfuiwedhf.000.pe/api.php";
 
     fetch(api_url)
         .then(response => response.json())
